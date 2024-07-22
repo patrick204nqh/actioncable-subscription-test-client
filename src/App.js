@@ -7,9 +7,10 @@ import { TestComponent } from './TestComponent';
 
 function App() {
   // Setup a link for action cable
-  const cable = ActionCable.createConsumer('ws://localhost:3000/cable');
+  const cable = ActionCable.createConsumer(process.env.REACT_APP_WS_ENDPOINT);
+  console.log(process.env.REACT_APP_WS_ENDPOINT);
   const actionCableLink = new ActionCableLink({ cable });
-  const httpLink = new HttpLink({uri: "http://localhost:3000/api/v1/graphql"});
+  const httpLink = new HttpLink({uri: process.env.REACT_APP_GRAPHQL_ENDPOINT});
 
   // Redirect subscriptions to the action cable link, while using the HTTP link for other queries
   const splitLink = split(

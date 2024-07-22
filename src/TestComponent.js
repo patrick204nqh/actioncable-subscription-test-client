@@ -5,9 +5,7 @@ export const TestComponent = () => {
   const ON_COMMENT_POSTED = gql`
     subscription TestData {
       testData(roomId: 100) {
-        payload {
-          data
-        }
+        status
       }
     }
   `
@@ -17,7 +15,7 @@ export const TestComponent = () => {
 
   return (
     <>
-      test
+      {loading ? <p>Loading...</p> : <p>{data.testData.status}</p>}
     </>
   )
 }
