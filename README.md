@@ -7,7 +7,19 @@
 
 ## Introduction
 
-This project demonstrates a simple client setup for testing real-time data updates using GraphQL subscriptions with Rails ActionCable.
+This project demonstrates a simple client setup for testing real-time data updates using GraphQL subscriptions with Rails ActionCable. Note that ActionCable requires a specific setup for WebSocket connections and testing subscriptions.
+
+## Why Set Up a Client for Testing?
+
+Setting up a client for testing is essential to:
+
+- Validate real-time data updates.
+- Debug issues with WebSocket connections and data handling.
+- Perform end-to-end testing of the subscription flow.
+
+## Limited Tool Support for GraphQL Subscriptions
+
+Currently, there are limited strong tools available for testing GraphQL subscriptions. Tools like GraphQL Playground and Insomnia provide basic support but may not fully support subscription features or require additional setup. Therefore, setting up a dedicated client ensures a more comprehensive testing environment.
 
 ## Prerequisites
 
