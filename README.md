@@ -1,5 +1,10 @@
 # ActionCable Subscription Test Client
 
+![Issues](https://img.shields.io/github/issues/patrick204nqh/actioncable-subscription-test-client)
+![License](https://img.shields.io/github/license/patrick204nqh/actioncable-subscription-test-client)
+![Last Commit](https://img.shields.io/github/last-commit/patrick204nqh/actioncable-subscription-test-client)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/patrick204nqh/actioncable-subscription-test-client)
+
 ## Introduction
 
 This project demonstrates a simple client setup for testing real-time data updates using GraphQL subscriptions with Rails ActionCable.
