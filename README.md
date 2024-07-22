@@ -57,9 +57,7 @@ Open your browser and navigate to `http://localhost:3001`. Open the browser cons
 
 ## Demo
 
-Check out the video demo below to see the project in action:
-
-...
+https://github.com/user-attachments/assets/47989175-13d4-481f-ad33-127999bc297a
 
 ## License
 
